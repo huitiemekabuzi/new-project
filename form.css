@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logos img{
+    height: 120px;
+    margin-top: -20px;
+}
+.premier{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(26, 101, 145);
+}
+
+.general{
+    max-width: 1500px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.visual{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-wrap: wrap;
+}
+.shirt-1{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.shirt-1 img{
+    width: 100%;
+    padding: 30px 0;
+    
+}
+.shirt-1 h1{
+    font-size: 50px;
+    line-height: 70px;
+    margin: 25px 0;
+}
