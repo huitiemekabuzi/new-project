@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .logos img{
-    height: 120px;
+    height: 200px;
     margin-top: -20px;
 }
 .premier{
@@ -15,6 +15,10 @@
 nav{
     flex: 1;
     text-align: right;
+    background-color: blue;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
 }
 
 nav ul{
@@ -34,7 +38,7 @@ nav ul li a{
 }
 
 .general{
-    max-width: 1500px;
+    max-width: 1100px;
     margin: 20px auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -60,3 +64,54 @@ nav ul li a{
     line-height: 70px;
     margin: 25px 0;
 }
+.shirt-1 a{
+    text-decoration: none;
+    padding: 8px 30px;
+    background-color: steelblue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+    display: inline-block;
+    transition: background 0.5s;
+}
+.shirt-1 a:hover{
+    background: rgba(24, 49, 70, 0.826);
+}
+.huitieme1{
+    margin-top: -20px;
+    background-color: #efefefdd;
+}
+
+.shirt00{
+    flex-basis: 20%;
+    min-width: 200px;
+    margin: auto;
+
+}
+.shirt00 img{
+    width: 300px;
+}
+.huitieme2{
+    margin: 70px 0;
+}
+.hkk h2{
+    text-align: center;
+    margin: 50px;
+    font-size: 2.2rem;
+    color: rgb(26, 101, 145);
+}
+.shirt01{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+.shirt01 img{
+    width: 100%;
+}
+.shirt01:hover{
+    transform: translateY(-10px);
+}
+/* .accuiel{
+    background-color: blue;
+} */
